@@ -3,16 +3,8 @@
 [![NPM Version](https://img.shields.io/npm/v/native-echarts.svg?style=flat)](https://www.npmjs.org/package/native-echarts)
   [![npm](https://img.shields.io/npm/dm/native-echarts.svg?style=flat)](https://www.npmjs.org/package/native-echarts)
   [![License](http://img.shields.io/npm/l/native-echarts.svg?style=flat)](https://raw.githubusercontent.com/somonus/react-native-echarts/master/LICENSE.md)
-  
-## 安装
 
-### NPM
-
-```
-$ npm install native-echarts --save
-```
-
-### Yarn
+## Yarn安装
 
 ```
 $ yarn add native-echarts
@@ -22,12 +14,13 @@ $ yarn add native-echarts
 
 使用方法和 Echarts 完全一致
 
-component props:
+### props
 
-* *option* (object): The option for echarts: [Documentation](http://echarts.baidu.com/option.html#title)。 
-* *width* (number): The width of the chart. The default value is the outer container width. 
-* *height* (number): The height of the chart. The default value is 400. 
+- *option* (object): The option for echarts: [Documentation](http://echarts.baidu.com/option.html#title)。 
+- *width* (number): 图表的宽度，默认值是它外部容器的宽度。
+- *height* (number): 图表的高度，默认值是400。
 
+### Demo
 
 ```js
 import React, { Component } from 'react';
@@ -66,18 +59,15 @@ export default class app extends Component {
 }
 
 AppRegistry.registerComponent('app', () => app);
-
 ```
 
-
-
-##Example
+## 示例
 
 *run demo*
 
 ```
 cd example
-npm install
+yarn install
 npm start
 ```
 
