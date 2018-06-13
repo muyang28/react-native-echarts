@@ -4,13 +4,23 @@
   [![npm](https://img.shields.io/npm/dm/native-echarts.svg?style=flat)](https://www.npmjs.org/package/native-echarts)
   [![License](http://img.shields.io/npm/l/native-echarts.svg?style=flat)](https://raw.githubusercontent.com/somonus/react-native-echarts/master/LICENSE.md)
   
-## install
+## 安装
 
+### NPM
+
+```
 $ npm install native-echarts --save
+```
 
-## Usage
+### Yarn
 
-The Usage is complete consistent with Echarts
+```
+$ yarn add native-echarts
+```
+
+## 使用
+
+使用方法和 Echarts 完全一致
 
 component props:
 
