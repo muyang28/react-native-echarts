@@ -10,7 +10,10 @@ export default class App extends Component {
   render() {
     return (
       <Container width={this.props.width}>
-        <Echarts {...this.props} ref={e => this.chart = e} />
+        <Echarts
+          {...this.props}
+          ref={(c) => { this.chart = c }}
+        />
       </Container>
     )
   }
