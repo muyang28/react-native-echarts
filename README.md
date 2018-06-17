@@ -1,4 +1,4 @@
-# native-echarts
+# youngjuning-native-echarts
 
 [![NPM Version](https://img.shields.io/npm/v/native-echarts.svg?style=flat)](https://www.npmjs.org/package/native-echarts)
   [![npm](https://img.shields.io/npm/dm/native-echarts.svg?style=flat)](https://www.npmjs.org/package/native-echarts)
@@ -10,15 +10,19 @@
 $ yarn add youngjuning-native-echarts
 ```
 
+## Android 打包
+
+打包 Android 需要先把 [tpl.html](http://t.cn/RBHgzv0) 下载下来拷贝到 `app/src/main/assets` 目录中。
+
 ## 使用
 
 使用方法和 Echarts 完全一致
 
 ### props
 
-- *option* (object): The option for echarts: [Documentation](http://echarts.baidu.com/option.html#title)。
-- *width* (number): 图表的宽度，默认值是它外部容器的宽度。
-- *height* (number): 图表的高度，默认值是400。
+- **option** (object): The option for echarts: [Documentation](http://echarts.baidu.com/option.html#title)。
+- **width** (number): 图表的宽度，默认值是它外部容器的宽度。
+- **height** (number): 图表的高度，默认值是400。
 
 ### Demo
 
