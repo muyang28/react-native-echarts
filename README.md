@@ -16,7 +16,7 @@ $ yarn add native-echarts
 
 ### props
 
-- *option* (object): The option for echarts: [Documentation](http://echarts.baidu.com/option.html#title)。 
+- *option* (object): The option for echarts: [Documentation](http://echarts.baidu.com/option.html#title)。
 - *width* (number): 图表的宽度，默认值是它外部容器的宽度。
 - *height* (number): 图表的高度，默认值是400。
 
@@ -77,7 +77,7 @@ Open the xcode project in the ios directory and click run
 
 screenshots：
 
-![image](https://github.com/somonus/react-native-echarts/blob/master/example/demoIOS.png)
+![image](https://i.loli.net/2018/06/17/5b260bb5de954.png)
 
 ### Android
 
@@ -85,7 +85,7 @@ Open the Android project in the android directory with Android Studio and click 
 
 screenshots：
 
-![image](https://github.com/somonus/react-native-echarts/blob/master/example/demoAndroid.png)
+![image](https://i.loli.net/2018/06/17/5b260bc836765.png)
 
 ## License
 
