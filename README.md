@@ -7,7 +7,7 @@
 ## Yarn安装
 
 ```
-$ yarn add native-echarts
+$ yarn add youngjuning-native-echarts
 ```
 
 ## 使用
@@ -30,7 +30,7 @@ import {
   Text,
   View
 } from 'react-native';
-import Echarts from 'native-echarts';
+import Echarts from 'youngjuning-native-echarts';
 
 export default class app extends Component {
   render() {
