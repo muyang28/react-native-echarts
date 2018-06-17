@@ -3,8 +3,8 @@ import { WebView, View } from 'react-native'
 import { Container, Echarts } from './components'
 
 export default class App extends Component {
-  setNewOption(option) {
-    this.chart.setNewOption(option)
+  setOption(option) {
+    this.chart.setOption(option)
   }
 
   render() {

@@ -6,7 +6,7 @@ import echarts from './echarts.min'
 export default class App extends Component {
   constructor(props) {
     super(props)
-    this.setNewOption = this.setNewOption.bind(this)
+    this.setOption = this.setOption.bind(this)
   }
 
 
@@ -16,7 +16,7 @@ export default class App extends Component {
     }
   }
 
-  setNewOption(option) {
+  setOption(option) {
     this.refs.chart.postMessage(JSON.stringify(option))
   }
 
