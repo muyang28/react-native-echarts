@@ -61,6 +61,10 @@ export default class app extends Component {
 AppRegistry.registerComponent('app', () => app)
 ```
 
+## TODO
+
+1. 提高 Echarts 版本
+
 ## 示例
 
 *run demo*
