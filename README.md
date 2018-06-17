@@ -35,6 +35,12 @@ md android/app/src/main/assets/ && copy node_modules/youngjuning-native-echarts/
 - **width** (number): 图表的宽度，默认值是它外部容器的宽度。
 - **height** (number): 图表的高度，默认值是400。
 
+### 实例方法
+
+| 方法名称  | 参数   | 备注                             |
+| --------- | ------ | -------------------------------- |
+| setOption | option | echarts配置项，请参考echarts官网 |
+
 ### Demo
 
 ```js
@@ -79,6 +85,8 @@ AppRegistry.registerComponent('app', () => app)
 ## TODO
 
 1. 提高 Echarts 版本
+2. 支持 getImage 实例方法
+3. 添加更多 props
 
 ## 示例
 
