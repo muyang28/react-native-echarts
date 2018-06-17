@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
-import { View } from 'react-native'
-import styles from '../../style'
+import { View, StyleSheet } from 'react-native'
+
+const styles = StyleSheet.create({
+  container: {
+    flexDirection: 'row',
+  },
+})
 
 export default class App extends Component {
   render() {
