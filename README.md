@@ -1,8 +1,6 @@
 # youngjuning-native-echarts
 
-[![NPM Version](https://img.shields.io/npm/v/native-echarts.svg?style=flat)](https://www.npmjs.org/package/native-echarts)
-  [![npm](https://img.shields.io/npm/dm/native-echarts.svg?style=flat)](https://www.npmjs.org/package/native-echarts)
-  [![License](http://img.shields.io/npm/l/native-echarts.svg?style=flat)](https://raw.githubusercontent.com/somonus/react-native-echarts/master/LICENSE.md)
+[![NPM Version](https://img.shields.io/npm/v/youngjuning-native-echarts.svg?style=flat)](https://www.npmjs.org/package/youngjuning-native-echarts) [![npm](https://img.shields.io/npm/dm/youngjuning-native-echarts.svg?style=flat)](https://www.npmjs.org/package/youngjuning-native-echarts) [![License](http://img.shields.io/npm/l/native-echarts.svg?style=flat)](https://raw.githubusercontent.com/youngjuning/youngjuning-native-echarts/master/LICENSE.md)
 
 ## Yarn安装
 
@@ -12,7 +10,20 @@ $ yarn add youngjuning-native-echarts
 
 ## Android 打包
 
+在项目根目录文件夹下使用命令：
+
 打包 Android 需要先把 [tpl.html](http://t.cn/RBHgzv0) 下载下来拷贝到 `app/src/main/assets` 目录中。
+
+- 以下是 mac && linux
+
+```bash
+mkdir android/app/src/main/assets/ && cp node_modules/youngjuning-native-echarts/src/components/Echarts/tpl.html android/app/src/main/assets/
+```
+- 以下是 windows
+
+```bash
+md android/app/src/main/assets/ && copy node_modules/youngjuning-native-echarts/src/components/Echarts/tpl.html android/app/src/main/assets/
+```
 
 ## 使用
 
