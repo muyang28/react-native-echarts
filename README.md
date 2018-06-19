@@ -17,12 +17,12 @@ $ yarn add youngjuning-native-echarts
 - 以下是 mac && linux
 
 ```bash
-mkdir android/app/src/main/assets/ && cp node_modules/youngjuning-native-echarts/src/components/Echarts/tpl.html android/app/src/main/assets/
+mkdir android/app/src/main/assets/ && cp node_modules/youngjuning-native-echarts/src/components/Echarts/tpl.html android/app/src/main/assets/echarts/
 ```
 - 以下是 windows
 
 ```bash
-md android/app/src/main/assets/ && copy node_modules/youngjuning-native-echarts/src/components/Echarts/tpl.html android/app/src/main/assets/
+md android/app/src/main/assets/ && copy node_modules/youngjuning-native-echarts/src/components/Echarts/tpl.html android/app/src/main/assets/echarts/
 ```
 
 ## 使用
