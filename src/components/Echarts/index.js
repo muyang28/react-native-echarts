@@ -32,7 +32,7 @@ export default class App extends Component {
             backgroundColor: this.props.backgroundColor || 'transparent',
           }}
           scalesPageToFit={Platform.OS !== 'ios'}
-          source={Platform.OS === 'ios' ? require('./tpl.html') : { uri: 'file:///android_asset/echars/tpl.html' }}
+          source={Platform.OS === 'ios' ? require('./tpl.html') : { uri: 'file:///android_asset/echarts/tpl.html' }}
           onMessage={event => (this.props.onPress ? this.props.onPress(JSON.parse(event.nativeEvent.data)) : null)}
         />
       </View>
